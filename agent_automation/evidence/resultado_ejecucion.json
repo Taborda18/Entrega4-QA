@@ -1,0 +1,47 @@
+{
+  "proyecto": "Entrega4-QA-main / agent_automation (modalidad C)",
+  "generado_y_ejecutado_por": "Agente de IA (Claude, sesión en la nube) contra la app real del equipo",
+  "fecha_ejecucion_utc": "2026-11-04T03:08:26+00:00",
+  "base_url_frontend": "http://localhost:5173",
+  "base_url_api": "http://localhost:3001",
+  "total": 5,
+  "pass": 5,
+  "fail": 0,
+  "ejercicios": [
+    {
+      "ejercicio": "AE-01",
+      "titulo": "Agregar producto al carrito (UI + API)",
+      "caso_entrega3": "CU-01",
+      "resultado": "PASS",
+      "detalle": "UI muestra cantidad 2 de PR-05 en el carrito; API confirma items[PR-05].quantity == 2."
+    },
+    {
+      "ejercicio": "AE-02",
+      "titulo": "Checkout sin dirección de entrega (UI + API)",
+      "caso_entrega3": "CE-04",
+      "resultado": "PASS",
+      "detalle": "UI bloquea el checkout y muestra el mensaje de dirección obligatoria; API responde 422 DELIVERY_ADDRESS_REQUIRED sin crear el pedido."
+    },
+    {
+      "ejercicio": "AE-03",
+      "titulo": "Rechazo por inventario insuficiente (UI + API)",
+      "caso_entrega3": "VL-05",
+      "resultado": "PASS",
+      "detalle": "UI rechaza agregar 6 unidades y el carrito permanece vacío; API responde 409 INSUFFICIENT_INVENTORY."
+    },
+    {
+      "ejercicio": "AE-04",
+      "titulo": "Pago rechazado no cobra ni descuenta stock (UI + API)",
+      "caso_entrega3": "TD-02",
+      "resultado": "PASS",
+      "detalle": "UI confirma el rechazo y el pedido sigue PENDIENTE DE PAGO; API confirma 0 cargos exitosos tras el rechazo."
+    },
+    {
+      "ejercicio": "AE-05",
+      "titulo": "Pedido CANCELADO no admite reinicio de pago (UI + API)",
+      "caso_entrega3": "ME-04",
+      "resultado": "PASS",
+      "detalle": "UI rechaza reiniciar el pago y conserva CANCELADO; API responde 409 TERMINAL_ORDER_STATE."
+    }
+  ]
+}
