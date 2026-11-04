@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PR-05  Producto NovaCommerce PR-051</name>
+   <tag></tag>
+   <elementGuidId>c31e15f9-6a09-4035-bda4-dade2e5cbf72</elementGuidId>
+   <origin>STUDIOASSIST</origin>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'cart-item-PR-05']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;cart-item-PR-05&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;cart-item-PR-05&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>330edbe3-bf78-466b-bada-e51360a1e36c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart-line</value>
+      <webElementGuid>e9fffc96-27da-42f1-89bf-82ad22bf18a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>cart-item-PR-05</value>
+      <webElementGuid>4f8e9c12-3f79-4b71-b86d-500a8e9f1c6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PR-05 · Producto NovaCommerce PR-051</value>
+      <webElementGuid>2be18f87-e2a0-49b7-bd5c-a38c816cf0b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'cart-item-PR-05']</value>
+      <webElementGuid>ccdd7f09-d21b-4f62-b492-47f055906316</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'cart-item-PR-05']</value>
+      <webElementGuid>e76d8b4d-cc1e-4416-8916-5ca95c776d7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PR-05 · Producto NovaCommerce PR-051' or . = 'PR-05 · Producto NovaCommerce PR-051')]</value>
+      <webElementGuid>047de4a8-71b3-48e6-a75c-2ccec7796900</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

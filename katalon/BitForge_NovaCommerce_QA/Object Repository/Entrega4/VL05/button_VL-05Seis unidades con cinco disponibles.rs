@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_VL-05Seis unidades con cinco disponibles</name>
+   <tag></tag>
+   <elementGuidId>b9216a8c-3ff0-4329-9c25-5d89d9f18c66</elementGuidId>
+   <origin>STUDIOASSIST</origin>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'scenario-VL-05']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;scenario-VL-05&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;scenario-VL-05&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>73e9ea42-3900-4857-b834-c9daa2c02bd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selected</value>
+      <webElementGuid>08c0c2ad-22a6-429e-af7a-983ffce0ae31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mcp-ref</name>
+      <type>Main</type>
+      <value>e15</value>
+      <webElementGuid>f4b5e849-ada0-4dd8-ab2a-1f09b9b40c40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>scenario-VL-05</value>
+      <webElementGuid>acd9721e-01c0-46eb-af0c-6c480aa3a037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VL-05Seis unidades con cinco disponibles</value>
+      <webElementGuid>cbfd90e9-74d1-440b-8c3d-195b147b2008</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'scenario-VL-05']</value>
+      <webElementGuid>937f67d4-fddb-4b86-9e66-7e390a118c90</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'scenario-VL-05']</value>
+      <webElementGuid>b0192ca3-efb7-47d5-a11e-431581b3ac73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'VL-05Seis unidades con cinco disponibles' or . = 'VL-05Seis unidades con cinco disponibles')]</value>
+      <webElementGuid>5f6607b5-fc8f-4621-917d-bf23ee8637ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

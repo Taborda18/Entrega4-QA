@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Entrega4_Katalon" time="28.298" tests="5" passed="5" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TS_Entrega4_Katalon" tests="5" passed="5" failures="0" errors="0" incompleted="0" skipped="0" time="28.298" timestamp="2026-11-04T01:34:52.608Z" hostname="USUARIO - 192.168.1.84" id="Test Suites/Entrega4/TS_Entrega4_Katalon" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442"/>
+         <property name="logFiles" value="C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\console0.log, C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/VL05_rechazo.png, C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/CE04_rechazo.png, C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/CU01_carrito.png, C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/TD02_rechazo.png, C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/ME04_rechazo.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="USUARIO - 192.168.1.84"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="browser" value="Chrome 156.0.8078.76"/>
+         <property name="userFullName" value="robin alejandro taborda giraldo"/>
+         <property name="hostAddress" value="192.168.1.84"/>
+         <property name="sessionId" value="6085702f4fc7d8d99b68f8adba095be5"/>
+         <property name="projectName" value="BitForge_NovaCommerce_QA"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Entrega4/TC_VL05_InventarioInsuficiente" time="9.375" classname="Test Cases/Entrega4/TC_VL05_InventarioInsuficiente" status="PASSED" tag="GenAI,VL-05,Entrega4">
+         <system-out><![CDATA[03-11-2026T20:34:53 - [TEST_CASE][PASSED] - Test Cases/Entrega4/TC_VL05_InventarioInsuficiente: Test Cases/Entrega4/TC_VL05_InventarioInsuficiente
+
+03-11-2026T20:34:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-11-2026T20:34:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-11-2026T20:34:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-11-2026T20:34:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-11-2026T20:34:59 - [TEST_STEP][PASSED] - try: Taking screenshot successfully
+
+03-11-2026T20:34:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:5173"): Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:34:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:34:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Entrega4/VL05/button_VL-05Seis unidades con cinco disponibles")): Object: 'Object Repository/Entrega4/VL05/button_VL-05Seis unidades con cinco disponibles' is clicked on
+
+03-11-2026T20:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Entrega4/VL05/button_VL-05Seis unidades con cinco disponibles' is clicked on
+
+03-11-2026T20:35:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Entrega4/VL05/button_Restablecer escenario")): Object: 'Object Repository/Entrega4/VL05/button_Restablecer escenario' is clicked on
+
+03-11-2026T20:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Entrega4/VL05/button_Restablecer escenario' is clicked on
+
+03-11-2026T20:35:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Entrega4/VL05/b_5"), 10): Object 'Object Repository/Entrega4/VL05/b_5' is visible
+
+03-11-2026T20:35:00 - [MESSAGE][PASSED] - Object 'Object Repository/Entrega4/VL05/b_5' is visible
+
+03-11-2026T20:35:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Entrega4/VL05/b_5"), "5"): Actual text and expected text of test object 'Object Repository/Entrega4/VL05/b_5' are matched.
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Entrega4/VL05/b_5' are matched.
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Entrega4/VL05/p_Sin productos"), "Sin productos"): Actual text and expected text of test object 'Object Repository/Entrega4/VL05/p_Sin productos' are matched.
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Entrega4/VL05/p_Sin productos' are matched.
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Entrega4/VL05/button_Intentar agregar 6 unidades")): Object: 'Object Repository/Entrega4/VL05/button_Intentar agregar 6 unidades' is clicked on
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Entrega4/VL05/button_Intentar agregar 6 unidades' is clicked on
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Entrega4/VL05/p_Sin productos"), "Sin productos"): Actual text and expected text of test object 'Object Repository/Entrega4/VL05/p_Sin productos' are matched.
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Entrega4/VL05/p_Sin productos' are matched.
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - result = getText(findTestObject("Object Repository/Entrega4/VL05/p_Sin productos")): Text of object 'Object Repository/Entrega4/VL05/p_Sin productos' is: 'Sin productos'
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Entrega4/VL05/p_Sin productos' is: 'Sin productos'
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - verifyMatch(result, "Sin productos", false): Actual text 'Sin productos' and expected text 'Sin productos' are matched 
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Actual text 'Sin productos' and expected text 'Sin productos' are matched 
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Entrega4/VL05/b_5"), "5"): Actual text and expected text of test object 'Object Repository/Entrega4/VL05/b_5' are matched.
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Entrega4/VL05/b_5' are matched.
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - verifyTextPresent("Stock insuficiente: disponibles 5, solicitadas 6.", false): Text 'Stock insuficiente: disponibles 5, solicitadas 6.' is present on page 
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Text 'Stock insuficiente: disponibles 5, solicitadas 6.' is present on page 
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/Entrega4/VL05_rechazo.png"): Taking screenshot successfully
+
+03-11-2026T20:35:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/VL05_rechazo.png]]
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+03-11-2026T20:35:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-11-2026T20:35:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entrega4/TC_CE04_DireccionAusente" time="6.62" classname="Test Cases/Entrega4/TC_CE04_DireccionAusente" status="PASSED" tag="GenAI,Entrega4">
+         <system-out><![CDATA[03-11-2026T20:35:02 - [TEST_CASE][PASSED] - Test Cases/Entrega4/TC_CE04_DireccionAusente: Test Cases/Entrega4/TC_CE04_DireccionAusente
+
+03-11-2026T20:35:02 - [TEST_STEP][PASSED] - css = { java.lang.String selector -> ... }: null
+
+03-11-2026T20:35:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-11-2026T20:35:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-11-2026T20:35:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-11-2026T20:35:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-11-2026T20:35:04 - [TEST_STEP][PASSED] - try: Taking screenshot successfully
+
+03-11-2026T20:35:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:5173"): Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:35:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - click(css.call("[data-testid='scenario-CE-04']")): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='scenario-CE-04']' is clicked on
+
+03-11-2026T20:35:05 - [MESSAGE][PASSED] - Object: '[data-testid='scenario-CE-04']' is clicked on
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - click(css.call("[data-testid='reset-scenario']")): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='reset-scenario']' is clicked on
+
+03-11-2026T20:35:05 - [MESSAGE][PASSED] - Object: '[data-testid='reset-scenario']' is clicked on
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - waitForElementVisible(css.call("[data-testid='cart-item-PR-05']"), 10): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:05 - [TEST_STEP][PASSED] - return object: Object '[data-testid='cart-item-PR-05']' is visible
+
+03-11-2026T20:35:06 - [MESSAGE][PASSED] - Object '[data-testid='cart-item-PR-05']' is visible
+
+03-11-2026T20:35:06 - [TEST_STEP][PASSED] - setText(css.call("[data-testid='customer-name']"), "Cliente Académico"): null
+
+03-11-2026T20:35:06 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:06 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:06 - [TEST_STEP][PASSED] - return object: Text 'Cliente Académico' is set on object '[data-testid='customer-name']'
+
+03-11-2026T20:35:06 - [MESSAGE][PASSED] - Text 'Cliente Académico' is set on object '[data-testid='customer-name']'
+
+03-11-2026T20:35:06 - [TEST_STEP][PASSED] - setText(css.call("[data-testid='customer-email']"), "cli-a@example.test"): null
+
+03-11-2026T20:35:06 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:06 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:06 - [TEST_STEP][PASSED] - return object: Text 'cli-a@example.test' is set on object '[data-testid='customer-email']'
+
+03-11-2026T20:35:07 - [MESSAGE][PASSED] - Text 'cli-a@example.test' is set on object '[data-testid='customer-email']'
+
+03-11-2026T20:35:07 - [TEST_STEP][PASSED] - setText(css.call("[data-testid='delivery-address']"), ""): null
+
+03-11-2026T20:35:07 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:07 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:07 - [TEST_STEP][PASSED] - return object: Text '' is set on object '[data-testid='delivery-address']'
+
+03-11-2026T20:35:08 - [MESSAGE][PASSED] - Text '' is set on object '[data-testid='delivery-address']'
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - click(css.call("[data-testid='checkout']")): null
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='checkout']' is clicked on
+
+03-11-2026T20:35:08 - [MESSAGE][PASSED] - Object: '[data-testid='checkout']' is clicked on
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - verifyTextPresent("La dirección de entrega es obligatoria. No se inició el cobro.", false): Text 'La dirección de entrega es obligatoria. No se inició el cobro.' is present on page 
+
+03-11-2026T20:35:08 - [MESSAGE][PASSED] - Text 'La dirección de entrega es obligatoria. No se inició el cobro.' is present on page 
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - verifyElementPresent(css.call("[data-testid='cart-item-PR-05']"), 5): null
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - return object: Object '[data-testid='cart-item-PR-05']' is present
+
+03-11-2026T20:35:08 - [MESSAGE][PASSED] - Object '[data-testid='cart-item-PR-05']' is present
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/Entrega4/CE04_rechazo.png"): Taking screenshot successfully
+
+03-11-2026T20:35:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/CE04_rechazo.png]]
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+03-11-2026T20:35:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-11-2026T20:35:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entrega4/TC_CU01_AgregarCarrito" time="4.578" classname="Test Cases/Entrega4/TC_CU01_AgregarCarrito" status="PASSED" tag="GenAI,Entrega4">
+         <system-out><![CDATA[03-11-2026T20:35:09 - [TEST_CASE][PASSED] - Test Cases/Entrega4/TC_CU01_AgregarCarrito: Test Cases/Entrega4/TC_CU01_AgregarCarrito
+
+03-11-2026T20:35:09 - [TEST_STEP][PASSED] - css = { java.lang.String selector -> ... }: null
+
+03-11-2026T20:35:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-11-2026T20:35:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-11-2026T20:35:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-11-2026T20:35:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-11-2026T20:35:11 - [TEST_STEP][PASSED] - try: Taking screenshot successfully
+
+03-11-2026T20:35:11 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:5173"): Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:35:11 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:35:11 - [TEST_STEP][PASSED] - click(css.call("[data-testid='scenario-CU-01']")): null
+
+03-11-2026T20:35:11 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:11 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:11 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='scenario-CU-01']' is clicked on
+
+03-11-2026T20:35:12 - [MESSAGE][PASSED] - Object: '[data-testid='scenario-CU-01']' is clicked on
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - click(css.call("[data-testid='reset-scenario']")): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='reset-scenario']' is clicked on
+
+03-11-2026T20:35:12 - [MESSAGE][PASSED] - Object: '[data-testid='reset-scenario']' is clicked on
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - setText(css.call("[data-testid='product-search']"), "PR-05"): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - return object: Text 'PR-05' is set on object '[data-testid='product-search']'
+
+03-11-2026T20:35:12 - [MESSAGE][PASSED] - Text 'PR-05' is set on object '[data-testid='product-search']'
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - click(css.call("[data-testid='search-product']")): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='search-product']' is clicked on
+
+03-11-2026T20:35:12 - [MESSAGE][PASSED] - Object: '[data-testid='search-product']' is clicked on
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - waitForElementVisible(css.call("[data-testid='add-to-cart']"), 10): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - return object: Object '[data-testid='add-to-cart']' is visible
+
+03-11-2026T20:35:12 - [MESSAGE][PASSED] - Object '[data-testid='add-to-cart']' is visible
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - click(css.call("[data-testid='add-to-cart']")): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:12 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='add-to-cart']' is clicked on
+
+03-11-2026T20:35:13 - [MESSAGE][PASSED] - Object: '[data-testid='add-to-cart']' is clicked on
+
+03-11-2026T20:35:13 - [TEST_STEP][PASSED] - verifyElementText(css.call("[data-testid='cart-quantity-PR-05']"), "2"): null
+
+03-11-2026T20:35:13 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:13 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:13 - [TEST_STEP][PASSED] - return object: Actual text and expected text of test object '[data-testid='cart-quantity-PR-05']' are matched.
+
+03-11-2026T20:35:13 - [MESSAGE][PASSED] - Actual text and expected text of test object '[data-testid='cart-quantity-PR-05']' are matched.
+
+03-11-2026T20:35:13 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/Entrega4/CU01_carrito.png"): Taking screenshot successfully
+
+03-11-2026T20:35:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/CU01_carrito.png]]
+
+03-11-2026T20:35:13 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+03-11-2026T20:35:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-11-2026T20:35:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entrega4/TC_TD02_PagoRechazado" time="3.947" classname="Test Cases/Entrega4/TC_TD02_PagoRechazado" status="PASSED" tag="GenAI,Entrega4">
+         <system-out><![CDATA[03-11-2026T20:35:13 - [TEST_CASE][PASSED] - Test Cases/Entrega4/TC_TD02_PagoRechazado: Test Cases/Entrega4/TC_TD02_PagoRechazado
+
+03-11-2026T20:35:14 - [TEST_STEP][PASSED] - css = { java.lang.String selector -> ... }: null
+
+03-11-2026T20:35:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-11-2026T20:35:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-11-2026T20:35:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-11-2026T20:35:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-11-2026T20:35:15 - [TEST_STEP][PASSED] - try: Taking screenshot successfully
+
+03-11-2026T20:35:15 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:5173"): Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:35:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - click(css.call("[data-testid='scenario-TD-02']")): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='scenario-TD-02']' is clicked on
+
+03-11-2026T20:35:16 - [MESSAGE][PASSED] - Object: '[data-testid='scenario-TD-02']' is clicked on
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - click(css.call("[data-testid='reset-scenario']")): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='reset-scenario']' is clicked on
+
+03-11-2026T20:35:16 - [MESSAGE][PASSED] - Object: '[data-testid='reset-scenario']' is clicked on
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue(css.call("[data-testid='order-id']"), "value", "PED-202", 5): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - return object: Object '[data-testid='order-id']' has attribute 'value' with value 'PED-202'
+
+03-11-2026T20:35:16 - [MESSAGE][PASSED] - Object '[data-testid='order-id']' has attribute 'value' with value 'PED-202'
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - click(css.call("[data-testid='reject-payment']")): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:16 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='reject-payment']' is clicked on
+
+03-11-2026T20:35:17 - [MESSAGE][PASSED] - Object: '[data-testid='reject-payment']' is clicked on
+
+03-11-2026T20:35:17 - [TEST_STEP][PASSED] - verifyTextPresent("Pago RECHAZADO; pedido PENDIENTE DE PAGO.", false): Text 'Pago RECHAZADO; pedido PENDIENTE DE PAGO.' is present on page 
+
+03-11-2026T20:35:17 - [MESSAGE][PASSED] - Text 'Pago RECHAZADO; pedido PENDIENTE DE PAGO.' is present on page 
+
+03-11-2026T20:35:17 - [TEST_STEP][PASSED] - verifyTextNotPresent("Pago APROBADO", false): Text 'Pago APROBADO' is not present on page
+
+03-11-2026T20:35:17 - [MESSAGE][PASSED] - Text 'Pago APROBADO' is not present on page
+
+03-11-2026T20:35:17 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/Entrega4/TD02_rechazo.png"): Taking screenshot successfully
+
+03-11-2026T20:35:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/TD02_rechazo.png]]
+
+03-11-2026T20:35:17 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+03-11-2026T20:35:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-11-2026T20:35:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entrega4/TC_ME04_PedidoCancelado" time="3.195" classname="Test Cases/Entrega4/TC_ME04_PedidoCancelado" status="PASSED" tag="GenAI,Entrega4">
+         <system-out><![CDATA[03-11-2026T20:35:17 - [TEST_CASE][PASSED] - Test Cases/Entrega4/TC_ME04_PedidoCancelado: Test Cases/Entrega4/TC_ME04_PedidoCancelado
+
+03-11-2026T20:35:17 - [TEST_STEP][PASSED] - css = { java.lang.String selector -> ... }: null
+
+03-11-2026T20:35:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-11-2026T20:35:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-11-2026T20:35:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-11-2026T20:35:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-11-2026T20:35:19 - [TEST_STEP][PASSED] - try: Taking screenshot successfully
+
+03-11-2026T20:35:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:5173"): Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:35:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173' successfully
+
+03-11-2026T20:35:19 - [TEST_STEP][PASSED] - click(css.call("[data-testid='scenario-ME-04']")): null
+
+03-11-2026T20:35:19 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:19 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:19 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='scenario-ME-04']' is clicked on
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Object: '[data-testid='scenario-ME-04']' is clicked on
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - click(css.call("[data-testid='reset-scenario']")): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='reset-scenario']' is clicked on
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Object: '[data-testid='reset-scenario']' is clicked on
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - verifyElementText(css.call("[data-testid='cancelled-order-id']"), "PED-204"): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - return object: Actual text and expected text of test object '[data-testid='cancelled-order-id']' are matched.
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object '[data-testid='cancelled-order-id']' are matched.
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - verifyTextPresent("estado inicial CANCELADO.", false): Text 'estado inicial CANCELADO.' is present on page 
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Text 'estado inicial CANCELADO.' is present on page 
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - click(css.call("[data-testid='retry-payment']")): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - object = new com.kms.katalon.core.testobject.TestObject(selector): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - object.addProperty("css", EQUALS, selector): null
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - return object: Object: '[data-testid='retry-payment']' is clicked on
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Object: '[data-testid='retry-payment']' is clicked on
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - verifyTextPresent("El estado CANCELADO es terminal; transición rechazada.", false): Text 'El estado CANCELADO es terminal; transición rechazada.' is present on page 
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Text 'El estado CANCELADO es terminal; transición rechazada.' is present on page 
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - verifyTextPresent("CANCELADO", false): Text 'CANCELADO' is present on page 
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Text 'CANCELADO' is present on page 
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/Entrega4/ME04_rechazo.png"): Taking screenshot successfully
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\USUARIO\\Katalon Studio\\BitForge_NovaCommerce_QA\\Reports\\20261103_203442\\Entrega4\\TS_Entrega4_Katalon\\20261103_203442\\Screenshots/Entrega4/ME04_rechazo.png]]
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+03-11-2026T20:35:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-11-2026T20:35:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-11-2026T20:34:52 - [TEST_SUITE][PASSED] - TS_Entrega4_Katalon: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

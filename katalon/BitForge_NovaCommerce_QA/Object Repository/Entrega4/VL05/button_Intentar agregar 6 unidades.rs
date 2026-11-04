@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Intentar agregar 6 unidades</name>
+   <tag></tag>
+   <elementGuidId>e2345aad-0efc-45ab-91c1-0b04bda1529a</elementGuidId>
+   <origin>STUDIOASSIST</origin>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'add-six']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;add-six&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;add-six&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>736ee06b-25c1-4709-8066-64164ff4eb0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mcp-ref</name>
+      <type>Main</type>
+      <value>e40</value>
+      <webElementGuid>d4d58df0-e3f0-4e95-bdd6-72e4ded93240</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>add-six</value>
+      <webElementGuid>b0339e2e-8347-46b6-a9b6-933b48bfc1a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Intentar agregar 6 unidades</value>
+      <webElementGuid>91391f62-f481-4b42-89d3-efddf42fed42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'add-six']</value>
+      <webElementGuid>7d884cb2-1d4a-477b-9294-56f172ab768c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'add-six']</value>
+      <webElementGuid>9f576351-59a1-48b4-9dcc-9e78489b3cf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Intentar agregar 6 unidades' or . = 'Intentar agregar 6 unidades')]</value>
+      <webElementGuid>1c628619-db3e-4390-b61b-28f3970d3ab9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

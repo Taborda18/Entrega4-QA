@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Entrega4_Katalon,Chrome 156.0.8078.76,"Suite funcional de NovaCommerce QA Lab: VL-05, CE-04, CU-01, TD-02 y ME-04.",,03-11-2026 20:34:52,03-11-2026 20:35:20,"28,367s",PASSED
+,,,,,,,
+Test Cases/Entrega4/TC_VL05_InventarioInsuficiente,Chrome 156.0.8078.76,VL-05: PR-05 tiene stock 5; solicitar 6 unidades debe ser rechazado y el carrito debe quedar vacío.,"GenAI,VL-05,Entrega4",03-11-2026 20:34:53,03-11-2026 20:35:02,"9,375s",PASSED
+"openBrowser("""")",Chrome 156.0.8078.76,,,03-11-2026 20:34:54,03-11-2026 20:34:59,"4,894s",PASSED
+try,Chrome 156.0.8078.76,,,03-11-2026 20:34:59,03-11-2026 20:35:01,"2,740s",PASSED
+Finally,Chrome 156.0.8078.76,,,03-11-2026 20:35:01,03-11-2026 20:35:02,"0,536s",PASSED
+,,,,,,,
+Test Cases/Entrega4/TC_CE04_DireccionAusente,Chrome 156.0.8078.76,CE-04: dirección ausente rechaza checkout e impide cobro.,"GenAI,Entrega4",03-11-2026 20:35:02,03-11-2026 20:35:09,"6,620s",PASSED
+css = { java.lang.String selector -> ... },Chrome 156.0.8078.76,,,03-11-2026 20:35:02,03-11-2026 20:35:02,"0,008s",PASSED
+"openBrowser("""")",Chrome 156.0.8078.76,,,03-11-2026 20:35:02,03-11-2026 20:35:04,"1,942s",PASSED
+try,Chrome 156.0.8078.76,,,03-11-2026 20:35:04,03-11-2026 20:35:08,"3,936s",PASSED
+Finally,Chrome 156.0.8078.76,,,03-11-2026 20:35:08,03-11-2026 20:35:09,"0,469s",PASSED
+,,,,,,,
+Test Cases/Entrega4/TC_CU01_AgregarCarrito,Chrome 156.0.8078.76,"CU-01: buscar PR-05, abrir detalle y agregar dos unidades al carrito.","GenAI,Entrega4",03-11-2026 20:35:09,03-11-2026 20:35:13,"4,578s",PASSED
+css = { java.lang.String selector -> ... },Chrome 156.0.8078.76,,,03-11-2026 20:35:09,03-11-2026 20:35:09,"0,009s",PASSED
+"openBrowser("""")",Chrome 156.0.8078.76,,,03-11-2026 20:35:09,03-11-2026 20:35:11,"1,897s",PASSED
+try,Chrome 156.0.8078.76,,,03-11-2026 20:35:11,03-11-2026 20:35:13,"1,917s",PASSED
+Finally,Chrome 156.0.8078.76,,,03-11-2026 20:35:13,03-11-2026 20:35:13,"0,397s",PASSED
+,,,,,,,
+Test Cases/Entrega4/TC_TD02_PagoRechazado,Chrome 156.0.8078.76,TD-02: pago rechazado mantiene pedido pendiente sin cobro exitoso.,"GenAI,Entrega4",03-11-2026 20:35:13,03-11-2026 20:35:17,"3,947s",PASSED
+css = { java.lang.String selector -> ... },Chrome 156.0.8078.76,,,03-11-2026 20:35:14,03-11-2026 20:35:14,"0,009s",PASSED
+"openBrowser("""")",Chrome 156.0.8078.76,,,03-11-2026 20:35:14,03-11-2026 20:35:15,"1,916s",PASSED
+try,Chrome 156.0.8078.76,,,03-11-2026 20:35:15,03-11-2026 20:35:17,"1,507s",PASSED
+Finally,Chrome 156.0.8078.76,,,03-11-2026 20:35:17,03-11-2026 20:35:17,"0,261s",PASSED
+,,,,,,,
+Test Cases/Entrega4/TC_ME04_PedidoCancelado,Chrome 156.0.8078.76,ME-04: PED-204 cancelado no puede volver a pendiente de pago.,"GenAI,Entrega4",03-11-2026 20:35:17,03-11-2026 20:35:20,"3,195s",PASSED
+css = { java.lang.String selector -> ... },Chrome 156.0.8078.76,,,03-11-2026 20:35:17,03-11-2026 20:35:17,"0,003s",PASSED
+"openBrowser("""")",Chrome 156.0.8078.76,,,03-11-2026 20:35:17,03-11-2026 20:35:19,"1,612s",PASSED
+try,Chrome 156.0.8078.76,,,03-11-2026 20:35:19,03-11-2026 20:35:20,"1,245s",PASSED
+Finally,Chrome 156.0.8078.76,,,03-11-2026 20:35:20,03-11-2026 20:35:20,"0,225s",PASSED

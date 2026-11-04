@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CU-01: buscar PR-05, abrir detalle y agregar dos unidades al carrito.</description>
+   <name>TC_CU01_AgregarCarrito</name>
+   <tag>GenAI,Entrega4</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>robin alejandro taborda giraldo</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>robin alejandro taborda giraldo</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>00cfac0b-a657-41f4-a45c-dd5ba7d4c552</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>00cfac0b-a657-41f4-a45c-dd5ba7d4c552</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c168842-8a8f-461a-a742-fed21ce9a7c0</testCaseGuid>
+</TestCaseEntity>

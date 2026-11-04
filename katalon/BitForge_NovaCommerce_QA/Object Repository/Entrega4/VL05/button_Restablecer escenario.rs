@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Restablecer escenario</name>
+   <tag></tag>
+   <elementGuidId>0dac592b-b1c1-40c6-8107-d4e9db974fa1</elementGuidId>
+   <origin>STUDIOASSIST</origin>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'reset-scenario']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;reset-scenario&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;reset-scenario&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7fc5a14f-9a51-4cbc-a1e5-345578147bf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>secondary</value>
+      <webElementGuid>e1b1cdaa-d462-4379-863f-5de1c46dd0da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mcp-ref</name>
+      <type>Main</type>
+      <value>e9</value>
+      <webElementGuid>f36a894f-2bab-4155-a8d6-2e31395e2ed1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>reset-scenario</value>
+      <webElementGuid>d15a2a3d-a84b-48e2-874d-16c988d9fb9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Restablecer escenario</value>
+      <webElementGuid>dd10cd20-7f42-411e-a65c-4391c77db0ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'reset-scenario']</value>
+      <webElementGuid>79471f38-cedf-4104-87ee-54a4b6f0d783</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'reset-scenario']</value>
+      <webElementGuid>419c1309-68ae-4ac8-b95e-efde6a13c8df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Restablecer escenario' or . = 'Restablecer escenario')]</value>
+      <webElementGuid>ec0f56d2-e026-415c-9ab0-8d6c8ff88c7f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

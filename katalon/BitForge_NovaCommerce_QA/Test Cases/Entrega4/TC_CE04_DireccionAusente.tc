@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CE-04: dirección ausente rechaza checkout e impide cobro.</description>
+   <name>TC_CE04_DireccionAusente</name>
+   <tag>GenAI,Entrega4</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>robin alejandro taborda giraldo</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>robin alejandro taborda giraldo</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>00cfac0b-a657-41f4-a45c-dd5ba7d4c552</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>00cfac0b-a657-41f4-a45c-dd5ba7d4c552</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1f4ec48-4a3b-4c0f-ab08-31e90d8e9b21</testCaseGuid>
+</TestCaseEntity>

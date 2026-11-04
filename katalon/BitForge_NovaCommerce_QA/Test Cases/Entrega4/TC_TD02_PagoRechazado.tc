@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TD-02: pago rechazado mantiene pedido pendiente sin cobro exitoso.</description>
+   <name>TC_TD02_PagoRechazado</name>
+   <tag>GenAI,Entrega4</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>robin alejandro taborda giraldo</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>robin alejandro taborda giraldo</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>00cfac0b-a657-41f4-a45c-dd5ba7d4c552</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>00cfac0b-a657-41f4-a45c-dd5ba7d4c552</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f965814d-a1c7-4ceb-8a8c-f8ae9e25efd3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>VL-05: PR-05 tiene stock 5; solicitar 6 unidades debe ser rechazado y el carrito debe quedar vacío.</description>
+   <name>TC_VL05_InventarioInsuficiente</name>
+   <tag>GenAI,VL-05,Entrega4</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>robin alejandro taborda giraldo</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>robin alejandro taborda giraldo</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>00cfac0b-a657-41f4-a45c-dd5ba7d4c552</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>00cfac0b-a657-41f4-a45c-dd5ba7d4c552</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2bd991e4-7fd4-476d-b338-c2f29b563c4a</testCaseGuid>
+</TestCaseEntity>
