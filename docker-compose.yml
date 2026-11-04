@@ -1,0 +1,26 @@
+services:
+  api:
+    build: .
+    command: npm run dev:server
+    environment:
+      PORT: 3001
+      DB_FILE: /app/data/lab.sqlite
+    ports:
+      - "127.0.0.1:3001:3001"
+    volumes:
+      - lab-data:/app/data
+    restart: unless-stopped
+
+  frontend:
+    build: .
+    command: npm run dev:client -- --host 0.0.0.0
+    environment:
+      VITE_API_PROXY_TARGET: http://api:3001
+    ports:
+      - "127.0.0.1:5173:5173"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  lab-data:
